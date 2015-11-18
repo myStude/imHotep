@@ -54,6 +54,7 @@ Public Class updateController
                         .importaSolicitacao(cidContrato, DATAORA, MyConn, oraConn, oraComm, myComm)
                         .importaCanceladas(DATAORA, cidContrato, MyConn, oraConn, oraComm, myComm)
                     End With
+
                     MyConn.Dispose()
                 End Using
                 oraConn.Dispose()
