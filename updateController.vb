@@ -22,6 +22,11 @@ Public Class updateController
 
     Private threadSleep As Integer() = {600000, 120000, 1200000} '600.000 Milisegundos = 10 Minutos
 
+    'Sub New()
+    '    espelhoORA("71986", "078", "NETSUL", Format(Now, "yyyy-MM-dd"))
+    '    espelhoCFG("71986", "078", "NETSUL", Format(Now, "yyyy-MM-dd"))
+    'End Sub
+
     ''' <summary>
     ''' Controlador dos metodos de Espelho
     ''' </summary>
